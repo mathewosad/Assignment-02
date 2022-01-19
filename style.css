@@ -1,0 +1,173 @@
+/*Universal*/
+body{
+    font-family: 'courgette', cursive;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff70;
+}
+.button1{
+    height: 32px;
+    color: #ffffff;
+    background: #022231;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button1:hover{
+    color:red;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*Header/Side bar*/
+header{
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #022231;
+    overflow-x: hidden;
+    color: #ffffff;
+    padding-top: 20px;
+}
+header a{
+    margin: 20px;
+    padding: 6px 8px 6px 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+}
+header ul{
+    padding: 0;
+    margin-top: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+
+#profile{
+    margin: 20px;
+    height: 200px;
+    width: 120px;
+    border-radius: 25px;
+    outline: 2px dashed;
+}
+
+header h1{
+    padding: 0;
+    margin: 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+.highlight{
+    color:red ;
+    font-weight: bold;
+}
+header a:hover{
+    color:red;
+    font-weight: bold;
+}
+/* Showcase */
+#showcase{
+    margin-right: 150px;
+    min-height: 400px;
+    background: url('../Assignment-02/assets/showcase.jpg') no-repeat 0 -195px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 180px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+/*Skills*/
+#boxes{
+    margin-top: 5%;
+    color: #022231;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+/*Contact*/
+#contact{
+    margin-right: 150px;
+    text-align: center;
+    color: #022231;
+}
+#contact input{
+    margin-left: 39%;
+    width: 30%;
+    border-radius: 25px;
+    padding: 6px 8px 6px 16px;
+    display: block;
+
+}
+#contact input[type="Full name"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+#contact input[type="Email"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+#contact input[type="Message"]{
+    padding: 4px;
+    height: 150px;
+    width: 200px;
+}
+
+/*Footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #022231;
+    text-align: center;
+}
+footer p{
+    margin-right: 10%;
+}
+footer #idLinkedInIcon {
+    margin-right: 10%;
+    background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    font:bold 25px Arial, Helvetica, sans-serif;
+    height:30px;
+    margin-top:1px;
+    text-align:center;
+    width:30px;
+}
+#idLinkedInIcon:hover{
+    background-color:#06d;}
+}
+
+
+
