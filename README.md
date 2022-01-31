@@ -30,6 +30,6 @@ The URL of the functional, deployed application.( https://mathewosad.github.io/M
 The URL of the GitHub repository. (https://github.com/mathewosad/My-Portfolio)
 
 Screenshot
-![]()
+![](assets\Snapshot.JPG)
 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
